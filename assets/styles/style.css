@@ -1,0 +1,49 @@
+.cube-wrap {
+    margin: auto;
+    margin-top: 10%;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.cube {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    animation-name: rounding-and-bias;
+    animation-duration: 0.75s;
+    /* animation-timing-function: cubic-bezier(.38, .72, .58, .27); */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.blue {
+    background-color: #a5bdef;
+    left: 0;
+    top: 0;
+}
+
+.turquoise {
+    background-color: #8cdef7;
+    top: 0;
+    right: 0;
+}
+
+.lilac {
+    background-color: #efbdff;
+    right: 0;
+    bottom: 0;
+}
+
+.pink {
+    background-color: #f7a5c5;
+    bottom: 0;
+    left: 0;
+}
